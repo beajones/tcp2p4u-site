@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css?family=Barlow:100');
+
+body {
+	background-image: url("../images/edited_landscape.jpg");
+	background-size: auto 235%;
+	background-repeat: no-repeat;
+}
+
+.jumbotron {
+	background-color: rgba(17, 17, 17, 0.9);
+	color: white;
+	font-family: 'Barlow';
+	font-style: extra-light;
+}
+
+.body-container {
+	width: 89%;
+	border-radius: 5px;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	background-color: rgba(17, 17, 17, 0.9);
+	color: white;
+	font-family: 'Barlow';
+	font-style: extra-light;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+	margin-top: -20px;
+}
