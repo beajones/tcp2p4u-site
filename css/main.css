@@ -9,7 +9,7 @@ body {
 }
 
 .jumbotron {
-	background-color: rgba(17, 17, 17, 0.9);
+	background-color: rgb(38, 38, 38);
 	color: white;
 	font-family: 'Barlow';
 	font-style: extra-light;
@@ -24,7 +24,7 @@ body {
 	margin-top: 30px;
 	margin-bottom: 30px;
 
-	background-color: rgba(17, 17, 17, 0.9);
+	background-color: rgb(38, 38, 38);
 	color: white;
 	font-family: 'Barlow';
 	font-style: extra-light;
@@ -35,10 +35,25 @@ body {
 
 	border: 0px;
 
-	background-color: rgba(17, 17, 17, 0.9);
-	color: white;
+	background-color: rgb(38, 38, 38);
+	color: #00bda0;
 	font-family: 'Barlow';
 	font-style: extra-light;
+}
+
+.navbar .navbar-brand {
+	color: #00bda0;
+	font-style: light;
+	font-size: 24px;
+}
+
+.nav li a:hover{
+	background-color: rgb(54, 54, 54) !important;
+}
+
+
+#navbarcontainer li a {
+	color: #00bda0;
 }
 #logo {
 	width: 100px;
