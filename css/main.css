@@ -56,6 +56,10 @@ body {
 	margin-top: -20px;
 }
 
+button {
+	font-style: medium;
+}
+
 #navbarcontainer li a {
 	color: #00bda0;
 }
