@@ -50,7 +50,11 @@ body {
 .nav li a:hover{
 	background-color: rgb(54, 54, 54) !important;
 }
-
+.small-icon{
+	width: 60px;
+	height: 60px;
+	margin-top: -20px;
+}
 
 #navbarcontainer li a {
 	color: #00bda0;
