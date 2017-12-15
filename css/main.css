@@ -18,14 +18,13 @@ p {
 	font-size: 16px;
 }
 
-button {
-	font-style: medium;
-}
-
 a {
 	color: #00bda0;
 }
 
+#functionality {
+	font-size: 22px;
+}
 
 .jumbotron {
 	background-color: rgb(38, 38, 38);
@@ -80,7 +79,6 @@ a {
 }
 .bold-text {
 	font-weight: 400;
-	font-size: 19px;
 }
 
 .list-unstyled li {
@@ -118,4 +116,6 @@ a {
 	height: 100px;
 	margin-top: -20px;
 }
+
+
 
