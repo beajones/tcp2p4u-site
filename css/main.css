@@ -8,6 +8,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+p {
+	font-size: 16px;
+}
+
 .jumbotron {
 	background-color: rgb(38, 38, 38);
 	color: white;
@@ -50,10 +54,29 @@ body {
 .nav li a:hover{
 	background-color: rgb(54, 54, 54) !important;
 }
+
+.list-unstyled li {
+	margin-left: 70px;
+}
+
+.li-button {
+	margin-left: 20px;
+	margin-top: 10px;
+	position: absolute;
+}
+
 .small-icon{
 	width: 60px;
 	height: 60px;
 	margin-top: -20px;
+}
+
+.git-icon{
+	width: 30px;
+	height: 30px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-top: 5px;
 }
 
 button {
