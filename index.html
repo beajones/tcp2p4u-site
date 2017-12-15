@@ -57,71 +57,94 @@
         </div>
       </div>
 
-
+      <!-- Functionality section -->
       <div class="container body-container" id="fuctionality">
         <h2> <img src="images/speechbubbles.png" class="small-icon"> Functionality </h2>
+        <div class="content">
+          <ul>
+            <li>
+              Hello
+            </li>
+          </ul>
+        </div>
       </div>
 
+      <!-- Download section -->
       <div class="container body-container" id="download">
         <h2> <img src="images/trees.png" class="small-icon"> Download &amp; Install</h2>
         <div class="row"> 
+          <!-- filler column -->
+          <div class="col-md-1">
+          </div>
           <!-- linux download -->
-          <div class="col-md-6">
-            <p> Download for Linux </p>
+          <div class="col-md-10">
+            <h3> Installation Instructions </h3>
             <button type="button" class="btn btn-default">Download for Linux</button>
           </div>
-          <!-- pc download -->
-          <div class="col-md-6">
-            <p> Installation Instructions </p>
+          <!-- filler column -->
+          <div class="col-md-1">
           </div>
         </div>
       </div>
 
+      <!-- Glossary section -->
       <div class="container body-container" id="glossary">
         <h2> <img src="images/map.png" class="small-icon">Glossary </h2>
         <!-- request commands -->
         <div class="col-md-6">
-          <p> Request Commands </p>
+          <h4> Request Commands </h4>
+          <div class="content">
+            <ul>
+              <li> <span class="bold-text"> start </span>- takes no arguments; creates a locally hosted Peer. </li>
+              <li> <span class="bold-text"> broadcast </span>- takes a variable number of arguments, joined by semicolons; sends as a message to every Peer to which the locally hosted Peer is connected. </li>
+              <li> <span class="bold-text"> join </span>- takes a variable number of arguments; instructs the locally hosted Peer to connect to remote Peers at given IPs. </li>
+              <li> <span class="bold-text"> info </span>- takes no arguments; prints out basic information about the locally running Peer. </li>
+              <li> <span class="bold-text"> chat </span>- takes no arguments; prints out the current chat. </li>
+              <li> <span class="bold-text"> stop </span>- takes no arguments; terminates the locally hosted Peer. </li>
+              
+            </ul>
+          </div>
         </div>
         <!-- utility commands -->
         <div class="col-md-6">
-          <p> Utility Commands</p>
+          <h4> Utility Commands</h4>
         </div>
       </div>
 
+      <!-- Links section -->
       <div class="container body-container" id="links">
         <h2> <img src="images/sign.png" class="small-icon">Links </h2>
         <ul class="list-unstyled">
-            <li>
+          <li>
             <a href="https://github.com/ialeinbach/tcp2p4u/">
               <h4>
-              <img src="images/github.png" class="git-icon"></a> 
-              tcp2p4u Project Github Repository 
-              <a href="https://github.com/ialeinbach/tcp2p4u/">
-              <button class="btn btn-outline-secondary btn-sm li-button" role="button"> 
-              Go! &raquo;
-              </button>
-              </a>
+                <img src="images/github.png" class="git-icon"></a> 
+                tcp2p4u Project Github Repository 
+                <a href="https://github.com/ialeinbach/tcp2p4u/">
+                  <button class="btn btn-outline-secondary btn-sm li-button" role="button"> 
+                    Go! &raquo;
+                  </button>
+                </a>
               </h4>
             </li>
             <li>
-            <a href="https://github.com/beajones/tcp2p4u-site">
-              <h4>
-              <img src="images/github.png" class="git-icon"></a> 
-              Website Github Repository 
               <a href="https://github.com/beajones/tcp2p4u-site">
-              <button class="btn btn-outline-secondary btn-sm li-button" role="button">Go! &raquo;
-              </button>
-              </a>
-              </h4>
-            </li>
-          </ul>
-      </div>
+                <h4>
+                  <img src="images/github.png" class="git-icon"></a> 
+                  Website Github Repository 
+                  <a href="https://github.com/beajones/tcp2p4u-site">
+                    <button class="btn btn-outline-secondary btn-sm li-button" role="button">Go! &raquo;
+                    </button>
+                  </a>
+                </h4>
+              </li>
+            </ul>
+          </div>
 
 
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
-    </body>
-    </html>
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <!-- Include all compiled plugins (below), or include individual files as needed -->
+          <script src="js/bootstrap.min.js"></script>
+        </body>
+        </html>
