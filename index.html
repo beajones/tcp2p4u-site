@@ -92,81 +92,86 @@
           </div>
           <!-- linux download -->
           <div class="col-md-10">
-            <h3> Installation Instructions </h3>
-            <button type="button" class="btn btn-default">Download for Linux</button>
-          </div>
-          <!-- filler column -->
-          <div class="col-md-1">
-          </div>
+            <h3> Linux Installation Instructions </h3>
+            <p> Download the <span class="bold-text"> install.sh </span> file and run it in your Linux terminal. </p>
+            <p> The script will download and install <span class="bold-text">tcp2p4u</span> locally in your home directory. </p>
+            <br>
+            <a href="https://raw.githubusercontent.com/ialeinbach/tcp2p4u/installer/install.sh?" download="install.sh">
+              <button type="button" class="btn btn-default">Download for Linux</button>
+            </a>
+         </div>
+         <!-- filler column -->
+         <div class="col-md-1">
+         </div>
+       </div>
+     </div>
+
+     <!-- Glossary section -->
+     <div class="container body-container" id="glossary">
+      <h2> <img src="images/map.png" class="small-icon">Glossary </h2>
+      <!-- request commands -->
+      <div class="col-md-6">
+        <h4> <span class="bold-text"> Request Commands </span></h4>
+        <div class="content">
+          <ul>
+            <li> <span class="bold-text"> start </span>- takes no arguments; creates a locally hosted Peer. </li>
+            <li> <span class="bold-text"> broadcast </span>- takes a variable number of arguments, joined by semicolons; sends as a message to every Peer to which the locally hosted Peer is connected. </li>
+            <li> <span class="bold-text"> join </span>- takes a variable number of arguments; instructs the locally hosted Peer to connect to remote Peers at given IPs. </li>
+            <li> <span class="bold-text"> info </span>- takes no arguments; prints out basic information about the locally running Peer. </li>
+            <li> <span class="bold-text"> chat </span>- takes no arguments; prints out the current chat. </li>
+            <li> <span class="bold-text"> stop </span>- takes no arguments; terminates the locally hosted Peer. </li>
+          </ul>
         </div>
       </div>
-
-      <!-- Glossary section -->
-      <div class="container body-container" id="glossary">
-        <h2> <img src="images/map.png" class="small-icon">Glossary </h2>
-        <!-- request commands -->
-        <div class="col-md-6">
-          <h4> <span class="bold-text"> Request Commands </span></h4>
-          <div class="content">
-            <ul>
-              <li> <span class="bold-text"> start </span>- takes no arguments; creates a locally hosted Peer. </li>
-              <li> <span class="bold-text"> broadcast </span>- takes a variable number of arguments, joined by semicolons; sends as a message to every Peer to which the locally hosted Peer is connected. </li>
-              <li> <span class="bold-text"> join </span>- takes a variable number of arguments; instructs the locally hosted Peer to connect to remote Peers at given IPs. </li>
-              <li> <span class="bold-text"> info </span>- takes no arguments; prints out basic information about the locally running Peer. </li>
-              <li> <span class="bold-text"> chat </span>- takes no arguments; prints out the current chat. </li>
-              <li> <span class="bold-text"> stop </span>- takes no arguments; terminates the locally hosted Peer. </li>
-            </ul>
-          </div>
-        </div>
-        <!-- utility commands -->
-        <div class="col-md-6">
-          <h4> <span class="bold-text"> Set-up Commands </span></h4>
-          <div class="content">
-            <ul>
-              <li> Run <span class="bold-text"> make </span> to compile. </li>
-              <li> Run <span class="bold-text"> make starter </span>to compile and create a starter Peer. </li>
-              <li> Run <span class="bold-text"> make clean </span> to delete class files. </li>
-              <li> Run <span class="bold-text"> java Peer X &amp; </span> to create a Peer with a PeerID of X. </li>
-              <li> Run <span class="bold-text"> java PeerRequester </span> with command line arguments to make requests to your locally hosted Peer. </li>
-            </ul>
-          </div>
+      <!-- utility commands -->
+      <div class="col-md-6">
+        <h4> <span class="bold-text"> Set-up Commands </span></h4>
+        <div class="content">
+          <ul>
+            <li> Run <span class="bold-text"> make </span> to compile. </li>
+            <li> Run <span class="bold-text"> make starter </span>to compile and create a starter Peer. </li>
+            <li> Run <span class="bold-text"> make clean </span> to delete class files. </li>
+            <li> Run <span class="bold-text"> java Peer X &amp; </span> to create a Peer with a PeerID of X. </li>
+            <li> Run <span class="bold-text"> java PeerRequester </span> with command line arguments to make requests to your locally hosted Peer. </li>
+          </ul>
         </div>
       </div>
+    </div>
 
-      <!-- Links section -->
-      <div class="container body-container" id="links">
-        <h2> <img src="images/sign.png" class="small-icon">Links </h2>
-        <ul class="list-unstyled">
+    <!-- Links section -->
+    <div class="container body-container" id="links">
+      <h2> <img src="images/sign.png" class="small-icon">Links </h2>
+      <ul class="list-unstyled">
+        <li>
+          <a href="https://github.com/ialeinbach/tcp2p4u/">
+            <h4>
+              <img src="images/github.png" class="git-icon"></a> 
+              tcp2p4u Project Github Repository 
+              <a href="https://github.com/ialeinbach/tcp2p4u/">
+                <button class="btn btn-outline-secondary btn-sm li-button" role="button"> 
+                  Go! &raquo;
+                </button>
+              </a>
+            </h4>
+          </li>
           <li>
-            <a href="https://github.com/ialeinbach/tcp2p4u/">
+            <a href="https://github.com/beajones/tcp2p4u-site">
               <h4>
                 <img src="images/github.png" class="git-icon"></a> 
-                tcp2p4u Project Github Repository 
-                <a href="https://github.com/ialeinbach/tcp2p4u/">
-                  <button class="btn btn-outline-secondary btn-sm li-button" role="button"> 
-                    Go! &raquo;
+                Website Github Repository 
+                <a href="https://github.com/beajones/tcp2p4u-site">
+                  <button class="btn btn-outline-secondary btn-sm li-button" role="button">Go! &raquo;
                   </button>
                 </a>
               </h4>
             </li>
-            <li>
-              <a href="https://github.com/beajones/tcp2p4u-site">
-                <h4>
-                  <img src="images/github.png" class="git-icon"></a> 
-                  Website Github Repository 
-                  <a href="https://github.com/beajones/tcp2p4u-site">
-                    <button class="btn btn-outline-secondary btn-sm li-button" role="button">Go! &raquo;
-                    </button>
-                  </a>
-                </h4>
-              </li>
-            </ul>
-          </div>
+          </ul>
+        </div>
 
 
-          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-          <!-- Include all compiled plugins (below), or include individual files as needed -->
-          <script src="js/bootstrap.min.js"></script>
-        </body>
-        </html>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+      </body>
+      </html>
